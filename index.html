@@ -708,9 +708,33 @@
         </div>
       </header>
       <!-- header close -->
-      <div class="rgbKineticSlider" id="rgbKineticSlider"></div>
-      <img src="images/logo-big.png" class="img-fluid swimming-logo" alt="" />
 
+      <!-- water -->
+      <img src="./images/1.jpg" class="bg-img" alt="bg" />
+      <div class="water"></div>
+      <div
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3rem;
+        "
+      >
+        <img
+          src="images/logo-big.png"
+          class="img-fluid"
+          alt=""
+          style="width: 500px"
+        />
+
+        <h1 class="mb10" style="color: white; font-size: 55px">
+          Pool Care Has Never Been Easier
+        </h1>
+      </div>
       <!-- content begin -->
       <div id="content" class="no-bottom no-top">
         <section
@@ -1201,41 +1225,10 @@
     </div>
 
     <!-- Animated cursor -->
-    <!-- <div class="cursor">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-    </div> -->
     <div id="trailer">
-      <!-- <i  class="fa-solid fa-arrow-up-right"></i> -->
       <i id="trailer-icon" class="fa-solid fa-link"></i>
-      <!-- <i id="trailer-icon" class="fa-solid fa-house"></i> -->
     </div>
-
     <!--  -->
-
-    <!-- distortion effect -->
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/pixi.min.js"></script>
-    <script src="js/rgbKineticSlider.js"></script>
-    <script src="js/main.js"></script>
 
     <!-- Javascript Files
     ================================================== -->
@@ -1250,6 +1243,14 @@
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script src="js/jquery.themepunch.plugins.min.js"></script>
     <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- water effect -->
+    <script src="js/ripples-min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".water").ripples();
+      });
+    </script>
 
     <!-- animated cursor -->
     <script src="js/animated-cursor.js"></script>
