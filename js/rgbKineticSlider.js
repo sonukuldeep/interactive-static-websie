@@ -329,27 +329,6 @@
 
                             function onClick() {
                                 // do something on click
-                                switch (currentIndex) {
-                                    case 0:
-                                        window.location.href = "/pages/house.html"
-                                        break
-                                    case 1:
-                                        window.location.href = "/pages/luxury.html"
-                                        break
-                                    case 2:
-                                        window.location.href = "/pages/tower.html"
-                                        break
-                                    case 3:
-                                        window.location.href = "/pages/residencial.html"
-                                        break
-                                    case 4:
-                                        window.location.href = "/pages/office.html"
-                                        break
-                                    default:
-                                        window.location.href = "/"
-                                        break
-
-                                }
                             }
                         }
                     }
@@ -926,7 +905,7 @@
 
             // interactivity
             cursorInteractive();
-            swipe();
+            // swipe();
             slideTransition(currentIndex);
 
             // Listen for window resize events

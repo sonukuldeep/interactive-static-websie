@@ -152,4 +152,5 @@ body.menu-toggled > .meta-link > span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -90%);
+  user-select: none;
 }
