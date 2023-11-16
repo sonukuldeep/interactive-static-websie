@@ -726,12 +726,15 @@
       >
         <img
           src="images/logo-big.png"
-          class="img-fluid"
+          class="img-fluid pointer-animation"
           alt=""
           style="width: 500px"
         />
 
-        <h1 class="mb10" style="color: white; font-size: 55px">
+        <h1
+          class="mb10 pointer-animation-1"
+          style="color: white; font-size: 55px"
+        >
           Pool Care Has Never Been Easier
         </h1>
       </div>
@@ -776,7 +779,9 @@
                 data-type="star"
                 data-wow-delay=".4s"
               >
-                <h2>The Expert Swimming Pool Repair and Maintenance</h2>
+                <h2 class="pointer-animation">
+                  The Expert Swimming Pool Repair and Maintenance
+                </h2>
               </div>
 
               <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
@@ -892,7 +897,7 @@
                     id="testimonial-carousel-single"
                     class="owl-carousel owl-theme wow fadeInUp"
                   >
-                    <blockquote class="testimonial-big">
+                    <blockquote class="testimonial-big pointer-animation-3">
                       <span class="title">Very professional services!</span>
                       I'm always impressed with the services. Lorem ipsum dolor
                       sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -903,7 +908,7 @@
                       <span class="name">John, Customer</span>
                     </blockquote>
 
-                    <blockquote class="testimonial-big">
+                    <blockquote class="testimonial-big pointer-animation-3">
                       <span class="title">Modern and great design!</span>
                       Just wow! I'm always impressed with the services. Lorem
                       ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -914,7 +919,7 @@
                       <span class="name">Sandra, Customer</span>
                     </blockquote>
 
-                    <blockquote class="testimonial-big">
+                    <blockquote class="testimonial-big pointer-animation-3">
                       <span class="title">Better than we think!</span>
                       I'm always impressed with the services. Lorem ipsum dolor
                       sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -947,10 +952,10 @@
                 data-animation="fadeInRight"
                 data-delay="200"
               >
-                <div class="padding80">
+                <div class="padding80 pointer-animation">
                   <h2>We Are Swimming Pool Experts</h2>
 
-                  <p>
+                  <p class="">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -974,7 +979,7 @@
           aria-label="cta"
         >
           <img src="images/2.jpg" class="jarallax-img" alt="" />
-          <div class="container">
+          <div class="container pointer-animation-1">
             <div class="row align-items-center">
               <div class="col-md-8 offset-md-2 text-center wow fadeInUp">
                 <h2>Do you looking for professional pool service?</h2>
@@ -999,7 +1004,7 @@
 
         <section>
           <div class="container">
-            <div class="row">
+            <div class="row pointer-animation-4">
               <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
                 <h2>Frequently Asked Questions</h2>
                 <div class="spacer-half"></div>
@@ -1143,7 +1148,13 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3">
-              <img src="images/logo-2.png" class="logo-small" alt="" /><br />
+              <img
+                src="images/logo-2.png"
+                class="logo-small interactable"
+                data-type="link"
+                =""
+                alt=""
+              /><br />
               We are team based on Los Angeles. Our expertise on Interior
               Design. Sed ut perspiciatis unde omnis iste natus error sit
               voluptatem accusantium doloremque laudantium, totam rem aperiam,
@@ -1152,7 +1163,7 @@
 
             <div class="col-lg-3">
               <div class="widget widget_recent_post">
-                <h3>Latest News</h3>
+                <h3 class="interactable" data-type="link">Latest News</h3>
                 <ul>
                   <li><a href="#">The Essentials Interior Design Tips</a></li>
                   <li><a href="#">Functional Wall-to-Wall Shelves</a></li>
@@ -1165,7 +1176,7 @@
 
             <div class="col-lg-3">
               <div class="widget widget_recent_post">
-                <h3>Our Services</h3>
+                <h3 class="interactable" data-type="link">Our Services</h3>
                 <ul>
                   <li><a href="#">New Pool</a></li>
                   <li><a href="#">Landscaping</a></li>
@@ -1177,7 +1188,7 @@
             </div>
 
             <div class="col-lg-3">
-              <h3>Contact Us</h3>
+              <h3 class="interactable" data-type="link">Contact Us</h3>
               <div class="widget widget-address">
                 <address>
                   <span>Andolasoft Pvt Ltd Bhubaneswar</span>
@@ -1239,6 +1250,12 @@
     <script src="js/countdown-custom.js"></script>
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
+
+    <!-- gsap animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/gsap-animation.js"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script src="js/jquery.themepunch.plugins.min.js"></script>
