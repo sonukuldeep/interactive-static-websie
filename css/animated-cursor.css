@@ -121,3 +121,54 @@ body.menu-toggled > .meta-link > span {
   object-fit: cover;
   position: absolute;
 }
+
+/* slider */
+.slider {
+  display: flex;
+  background-color: #5a87b6 !important;
+  rotate: 1deg;
+  width: 103vw;
+  color: #fff;
+  gap: 10rem;
+  transform: translateX(-1rem);
+}
+
+.slider ul {
+  display: flex;
+  transform: translateX(-50%);
+  gap: 10rem;
+}
+
+.slider ul li {
+  font-size: 70px;
+}
+#section-text {
+  padding-bottom: 0 !important;
+}
+
+/* wave */
+#wave {
+  margin-top: -100px;
+  padding: 0 !important;
+  opacity: 0.5;
+  transform: translateY(50px);
+  position: relative;
+}
+
+.svg-box {
+  display: flex;
+  animation: moveLeft 30s ease-in-out infinite;
+  margin-top: -350px;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
