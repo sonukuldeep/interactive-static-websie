@@ -42,14 +42,14 @@ body:hover > #trailer {
   width: clamp(120px, 40vmin, 600px); */
   background-position: center 50%;
   background-size: 100%;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 
   transition: background-size 400ms ease, opacity 400ms ease;
 }
 
 .interactable:hover {
   background-size: 105%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 /* -- YouTube Link Styles -- */
@@ -108,7 +108,17 @@ body.menu-toggled > .meta-link > span {
 
 /* water */
 .water {
+  /* background: url("../images/empty.png"); */
   background: url("../images/1_water.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  bottom: 70px;
+}
+
+.water2 {
+  background: url("../images/empty.png");
+  /* background: url("../images/1_water.png"); */
   width: 100%;
   height: 100vh;
   background-size: cover;
