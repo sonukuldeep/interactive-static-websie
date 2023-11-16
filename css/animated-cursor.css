@@ -172,3 +172,10 @@ body.menu-toggled > .meta-link > span {
     transform: translateX(0);
   }
 }
+
+@media (max-width: 768px) {
+  .water {
+    visibility: hidden;
+    background: url("../images/1.jpg");
+  }
+}
